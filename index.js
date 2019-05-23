@@ -4,7 +4,6 @@
 // we actually don't need an element (the document will get the event listener)
 
 // 2 - write the function that will happen when we do the thing
-const moveDodgerLeft = () => {
   // get the dodger first
   const dodger = document.getElementById('dodger');
   // next thing is change the layout/position of dodger
@@ -17,10 +16,6 @@ currentleftNumber =  parseInt(currentleftNumber, 10) // 180;
 dodger.style.left = currentleftNumber - 5 + 'px' // '179px';
 };
 
-  // get the dodger first
-  const dodger = document.getElementById('dodger');
-  // next thing is change the layout/position of dodger
-  // which means we need some css changes
 
 const moveDodgerRight = () => {
 const currentRight = dodger.style.left //'180px';
